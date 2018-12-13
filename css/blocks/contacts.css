@@ -1,0 +1,23 @@
+.contacts {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1em;
+}
+
+.contacts__shedule {
+  position: absolute;
+  font-size: 14px;
+  color: #c9d5e9;
+  right: 0;
+  font-style: normal;
+}

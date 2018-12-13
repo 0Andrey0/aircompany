@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Отзывы</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-  <link rel="stylesheet" href="../css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="../css/comments.css" />
 </head>
 
 <body>
@@ -27,11 +27,11 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link menu__link--main">Главная
+                <a href="./index.html" class="menu__link menu__link--main">Главная
                 </a>
               </li>
               <li class="menu__item menu__item--active">
-                <a href="#" class="menu__link menu__link--feed">Отзывы
+                <a href="./comments.html" class="menu__link menu__link--feed">Отзывы
                 </a>
               </li>
               <li class="menu__item">
@@ -44,13 +44,14 @@
 
         <div class="page-content">
           <div class="page__nav">
-            <a href="index.html" class="main-nav__link_disable">Главная</a> / <a href="comments.html" class="main-nav__link_enable">Отзывы</a>
+            <a href="index.html" class="main-nav__link">Главная</a> / <a href="comments.html" 
+            class="main-nav__link main-nav__link--enable">Отзывы</a>
           </div>
           <div class="page__feed">
-            <h1 class="main-feed__caption">Отзывы</h1>
+            <h2 class="section-title">Отзывы</h2>
             <ul class="main-feed__elements">
               <li class="main-feed__element-body">
-                <div class="main-feed__body-photo"><img src="../img/comment-1.jpg" alt="аватар"></div>
+                <div class="main-feed__body-photo"><img src="../img/comment-1.jpg" class="main-feed__pic" alt="аватар"></div>
                 <div class="main-feed__body-review">
                   <span class="main-feed__review-date">12.10.2016</span>
                   <h3 class="main-feed__review-name">Ирина Паламарчук</h3>
@@ -63,7 +64,7 @@
                 </div>
               </li>
               <li class="main-feed__element-body">
-                <div class="main-feed__body-photo"><img src="../img/comment-2.jpg" alt="аватар"></div>
+                <div class="main-feed__body-photo"><img src="../img/comment-2.jpg" class="main-feed__pic" alt="аватар"></div>
                 <div class="main-feed__body-review">
                   <span class="main-feed__review-date">01.02.2016</span>
                   <h3 class="main-feed__review-name">Александр Бельков</h3>
@@ -75,7 +76,7 @@
                 </div>
               </li>
               <li class="main-feed__element-body">
-                <div class="main-feed__body-photo"><img src="../img/comment-3.png" alt="аватар"></div>
+                <div class="main-feed__body-photo"><img src="../img/comment-3.png" class="main-feed__pic" alt="аватар"></div>
                 <div class="main-feed__body-review">
                   <span class="main-feed__review-date">22.12.2015</span>
                   <h3 class="main-feed__review-name">Игорь Николаенко</h3>
@@ -87,7 +88,7 @@
                 </div>
               </li>
               <li class="main-feed__element-body">
-                <div class="main-feed__body-photo"><img src="../img/comment-4.jpg" alt=""></div>
+                <div class="main-feed__body-photo"><img src="../img/comment-4.jpg" class="main-feed__pic" alt=""></div>
                 <div class="main-feed__body-review">
                   <span class="main-feed__review-date">14.08.2015</span>
                   <h3 class="main-feed__review-name">Анастасия Порядная</h3>
@@ -101,44 +102,46 @@
             </ul>
           </div>
           <div class="pagination">
-            <span class="pagination__display">Страница 1 из 7</span>
+            <div class="pagination__display">Страница 1 из 7</div>
             <div class="pagination__controlls">
-              <a href="" class="pagination__prev"><span>
-                  <</span> </a> <ul class="pagination__list">
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">1</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">2</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">3</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">4</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">5</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">6</span></a>
-                    </li>
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link"><span class="pagination__list-numb">7</span></a>
-                    </li>
-                    </ul>
-                    <a href="" class="pagination__next">></a>
+              <a href="" class="pagination__butt pagination__prev">
+                <</a> <ul class="pagination__list">
+                  <li class="pagination__item pagination__item_active">
+                    <a href="#" class="pagination__link">1</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">2</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">3</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">4</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">5</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">6</a>
+                  </li>
+                  <li class="pagination__item">
+                    <a href="#" class="pagination__link">7</a>
+                  </li>
+                  </ul>
+                  <a href="" class="pagination__butt pagination__next">></a>
             </div>
           </div>
           <div class="page__text">
+            <div class="page__text-container">
             <p class="page-text__paragraph">Вопросы по бронированию билетов в нашей компании принимаются. Для этого
               можно оставить
               <a href="#" class="page__text-link">заявку на сайте</a> или же позвонить по номеру круглосуточной
               поддержки
-              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a></p>
+              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10.</a></p>
+            </div>
           </div>
           <div class="main-addfeed">
-            <h2 class="main-addfeed__caption">Оставить отзыв</h2>
+            <h2 class="section-title">Оставить отзыв</h2>
             <form action="#" class="main-addfeed__form" method="POST">
               <div class="main-addfeed__name">
                 <label for="name" class="main-addfeed__label">Ваше имя</label>
@@ -169,7 +172,7 @@
         <div class="container footer__container">
           <p class="footer__text">Сделано с любовью и старанием на курсе &#171;HTML + CSS&#187; в <a href="loftschool.com">Loftschool</a>
             Автор работы: Захватов Андрей</p>
-          <a href="" class="logo"><img src="../img/logo_header.png" alt="Логотип"></a>
+          <a href="" class="logo"><img src="../img/logo_header.png" class="footer__logo" alt="Логотип"></a>
           <div class="social">
             <p class="social__text">Наши социальные сети</p>
             <ul class="social__icons">
