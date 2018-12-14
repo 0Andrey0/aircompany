@@ -1,8 +1,7 @@
 .social {
-  display: inline-block;
+  /*display: inline-block;
   position: absolute;
-  /*top: 5px;*/
-  right: 20px;
+  right: 20px;*/
   font-weight: bold;
   text-align: left;
 }

@@ -9,6 +9,8 @@
   height: 78px;
   position: relative;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .footer__text,
 .footer__text a {
@@ -23,5 +25,5 @@
   font-weight: bold;
 }
 .footer__logo {
-  margin: 20px 22%;
+  margin: 20px;
 }
