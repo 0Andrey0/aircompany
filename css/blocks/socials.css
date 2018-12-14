@@ -1,0 +1,46 @@
+.social {
+  /*display: inline-block;
+  position: absolute;
+  right: 20px;*/
+  font-weight: bold;
+  text-align: left;
+}
+
+.soc__item:nth-child(1) {
+  margin-left: 0;
+}
+
+
+
+.social__text {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+}
+
+.soc__item {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.soc__link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.soc__icon {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #d2def3;
+  position: relative;
+}
+
+.soc__icon-picture {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}

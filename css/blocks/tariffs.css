@@ -1,0 +1,66 @@
+.tariffs {
+  display: flex;
+}
+.tariffs-section {
+  margin-bottom: 50px;
+}
+.tariffs__item {
+  text-align: center;
+  list-style: none;
+  width: 276px;
+  /*display: inline-block;*/
+}
+
+.tariffs__desc {
+  font-weight: lighter;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tariffs__text-items {
+  list-style: disc;
+  text-align: left;
+  padding: 25px 0; 
+  padding-left: 115px;
+}
+
+.tariffs__text-item {
+  padding: 7px 0;
+  width: 250px;
+}
+
+.tariffs__image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #4b73b5;
+  position: relative;
+  /*margin-left: 84px;*/
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+
+.tariffs__image-pic {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+
+.tariffs__name {
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 33px;
+}
+
+.tariffs__price {
+  font-weight: normal;
+  font-size: 54px;
+  letter-spacing: -0.1em;
+}
+
