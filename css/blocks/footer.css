@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.footer-elem {
+  padding: 0 20px;
+}
+
 .footer__container {
   height: 78px;
   position: relative;
