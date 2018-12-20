@@ -1,9 +1,10 @@
 .contacts {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  /*position: absolute;*/
   text-align: right;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
 }
 
 .contacts__phone {
@@ -15,7 +16,7 @@
 }
 
 .contacts__shedule {
-  position: absolute;
+  /*position: absolute;*/
   font-size: 14px;
   color: #c9d5e9;
   right: 0;

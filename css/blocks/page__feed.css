@@ -1,0 +1,40 @@
+.page__feed {
+  margin-bottom: 60px;
+}
+
+.main-feed__elements {
+  display: flex;
+  flex-flow: wrap column;
+}
+
+.main-feed__element-body {
+  display: flex;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(191, 191, 191, 0.3);
+  padding-bottom: 20px;
+}
+
+.main-feed__element-body:last-child {
+  border-bottom: none;
+}
+
+.main-feed__body-photo {
+  margin-right: 20px;
+}
+
+.main-feed__review-date {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.main-feed__review-text {
+  font-weight: 300;
+}
+
+.main-feed__review-name {
+  font-weight: bold;
+}
+
+.main-feed__pic {
+  border-radius: 50%;
+}

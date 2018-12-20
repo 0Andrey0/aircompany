@@ -1,0 +1,32 @@
+.page__partners {
+  margin-bottom: 100px;
+}
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  width: 33.3%; 
+  /*flex: 1 0 260px;*/
+  padding-bottom: 60px;
+}
+.partners__item:nth-child(4),
+.partners__item:nth-child(5),
+.partners__item:nth-child(6) {
+  padding-bottom: 0px;
+}
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__link img {
+  max-width: 100%;
+  max-height: 100%;
+  filter: grayscale(100%);
+}
+.partners__link img:hover {
+  filter: grayscale(0);
+}

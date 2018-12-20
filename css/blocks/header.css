@@ -10,4 +10,6 @@
 .header__container {
   height: 78px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }

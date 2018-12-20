@@ -1,0 +1,20 @@
+.page__text {
+  height: 170px;
+  background-image: url(../../img/green-background.jpg);
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+  width: 125%;
+  transform: translate(-20%, 0);
+}
+.page__text a {
+  font-weight: bold;
+  color: white;
+}
+.page__text-container {
+  width: 625px;
+  margin: 0 auto;
+}
